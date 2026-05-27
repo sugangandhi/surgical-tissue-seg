@@ -1,0 +1,21 @@
+# CholecSeg8k — YOLO26 Segmentation Config
+path: ../data/processed
+train: images/train
+val: images/val
+test: images/test
+
+nc: 13
+names:
+  0: background
+  1: abdominal_wall
+  2: liver
+  3: gi_tract
+  4: fat
+  5: grasper
+  6: connective_tissue
+  7: blood
+  8: cystic_duct
+  9: l_hook_electrocautery
+  10: gallbladder
+  11: hepatoduodenal_ligament
+  12: clipper
