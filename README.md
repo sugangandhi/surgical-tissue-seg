@@ -35,7 +35,6 @@ This project fine-tunes **YOLO26-seg** on the [CholecSeg8k](https://arxiv.org/ab
 | YOLO26s-seg | - | - | - |
 | YOLO26s-seg + SAM2 | - | - | - |
 
-> Fill in after running experiments.
 
 ---
 
@@ -87,7 +86,7 @@ kaggle datasets download newslab/cholecseg8k -p data/raw/
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### 1. Convert Dataset
 ```bash
@@ -113,7 +112,7 @@ python app/gradio_demo.py
 
 ---
 
-## 📈 Ablation Study
+##  Ablation Study
 
 Run the full ablation comparing YOLO26 variants vs YOLOv11 baseline:
 ```bash
@@ -122,7 +121,7 @@ python src/evaluate.py --ablation
 
 ---
 
-## 🤗 Hugging Face Deployment
+##  Hugging Face Deployment
 
 ```bash
 # Push to HF Spaces
@@ -136,7 +135,7 @@ api.upload_folder(folder_path='app/', repo_id='YOUR_HF_USERNAME/surgical-tissue-
 
 ---
 
-## 📚 References
+##  References
 
 - [CholecSeg8k Paper](https://arxiv.org/abs/2012.12453)
 - [Ultralytics YOLO26](https://docs.ultralytics.com/models/yolo26)
